@@ -1,0 +1,358 @@
+/* 
+.report-container {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .report-container h2 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .report-filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-group label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  .filter-group select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 160px;
+    font-size: 14px;
+  }
+  
+  .btn-clear {
+    padding: 8px 16px;
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .btn-export {
+    background-color: #198754;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .btn-export-red {
+    background-color: #dc3545;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+  }
+  
+  .report-table thead {
+    background-color: #212529;
+    color: white;
+  }
+  
+  .report-table th, .report-table td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+   
+
+ */
+
+
+ /* .report-container {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .report-container h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .report-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-end;
+    margin-bottom: 1rem;
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter-group label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    color: #333;
+  }
+  
+  .filter-group input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 260px;
+    font-size: 14px;
+  }
+  
+  .btn-clear {
+    padding: 10px 16px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    height: 41px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .btn-clear:hover {
+    background-color: #5a6268;
+  }
+  
+  .export-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btn-export {
+    background-color: #198754;
+    color: white;
+    padding: 10px 16px;
+    font-size: 14px;
+    border: 1px solid #198754;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .btn-export:hover {
+    background-color: #157347;
+  }
+  
+  .btn-export-red {
+    background-color: #ffffff;
+    color: #dc3545;
+    padding: 10px 16px;
+    font-size: 14px;
+    border: 1px solid #dc3545;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-export-red:hover {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+  
+  .report-table thead {
+    background-color: #212529;
+    color: white;
+  }
+  
+  .report-table th, .report-table td {
+    padding: 10px 14px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .report-table tbody tr:hover {
+    background-color: #f2f2f2;
+  }
+   */
+
+   .report-container {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .report-container h2 {
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .report-filters {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 1.5rem;
+  }
+  
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 160px;
+  }
+  
+  .filter-group label {
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  .filter-group select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+  }
+  
+  .btn-clear {
+    padding: 8px 16px;
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 38px;
+  }
+  
+  /* .btn-export {
+    background-color: #fff;
+    color: #198754;
+    padding: 8px 16px;
+    border: 2px solid #198754;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 34px;
+    text-decoration: none;
+  }
+
+  
+  
+  
+  .btn-export-red {
+    background-color: #fff;
+    color: #dc3545;
+    padding: 8px 16px;
+    border: 2px solid #dc3545;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 38px;
+  }
+   */
+
+
+/* Common button styles for size & layout */
+.btn-export{
+    padding: 2px 10px;
+  border-radius: 6px;
+  border: 2px solid;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 33px;
+  width: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+}
+.btn-export-red {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: 2px solid;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  height: 40px;
+  width: 120px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+/* Green (Export CSV) */
+.btn-export {
+  color: #198754;
+  border-color: #198754;
+}
+
+.btn-export:hover {
+  background-color: #198754;
+  color: white;
+}
+
+/* Red (Export PDF) */
+.btn-export-red {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-export-red:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+
+  .report-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .report-table thead {
+    background-color: #212529;
+    color: white;
+  }
+  
+  .report-table th,
+  .report-table td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  

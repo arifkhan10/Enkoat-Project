@@ -4,15 +4,16 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ContractorForm from './components/ContractorForm';
 import Dashboard from './components/Dashboard';
 import './App.css';
+import Report from './components/Report';
 
 function App() {
   return (
     <Router>
-      <header className="main-header">
+      <header className="header">
   <div className="header-section">
     {/* <img src="/img/enkoat-logo-updated-new.png" " /> */}
 
-    <img src="public/enkoat-logo-updated-new.png" alt="EnKoat Logo" className="logo"/>
+    <img src="/enkoat-logo-updated-new.png" alt="EnKoat Logo" className="logo"/>
   </div>
 
   <div className="center-section">
@@ -22,6 +23,7 @@ function App() {
   <nav className="nav-links header-section" style={{ justifyContent: "flex-end" }}>
     <Link to="/">Quote Form</Link>
     <Link to="/dashboard">Dashboard</Link>
+    <Link to="/report">Report</Link>
   </nav>
 </header>
 
@@ -29,6 +31,8 @@ function App() {
       <Routes>
         <Route path="/" element={<ContractorForm />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/report" element={<Report />} />
+        
       </Routes>
     </Router>
   );

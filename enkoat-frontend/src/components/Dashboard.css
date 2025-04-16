@@ -15,7 +15,7 @@
   }
   
 
-  .btn-export {
+  /* .btn-export {
   padding: 10px 16px;
   background-color: #007bff;
   color: white;
@@ -24,6 +24,25 @@
   cursor: pointer;
   font-weight: bold;
   text-decoration: none;
+} */
+
+.btn-export {
+  background-color: #198754;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.btn-export-red {
+  background-color: #dc3545;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-export:hover {
