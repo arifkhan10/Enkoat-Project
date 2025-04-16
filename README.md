@@ -6,7 +6,7 @@ This full-stack application simulates a contractor-facing interface for submitti
 
 It includes:
 - A quote submission form for contractors.
-- A dynamic dashboard with charts and map views of roofing project trends.
+- A dynamic dashboard with charts and map views of roofing project trends. 
 - Features like filtering by state and roof type, export to CSV and PDF, and a geographic heatmap using Leaflet.
 
 
