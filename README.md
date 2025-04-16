@@ -1,35 +1,53 @@
-# EnKoat Quote Portal & Performance Dashboard
+#  EnKoat Quote Portal & Performance Dashboard
 
-##  Project Overview
+## 🚀 Project Overview  
+This full-stack application simulates a contractor-facing interface for submitting roofing project quotes and visualizing project performance data using EnKoat's IntelliKoat™ system.It uses a mock dataset located at:  `enkoat-frontend/public/mock_data_with_latlng.csv`
 
-This full-stack application simulates a contractor-facing interface for submitting roofing project quotes and visualizing project performance data using EnKoat's IntelliKoat™ system.
+---
 
-It includes:
-- A quote submission form for contractors.
-- A dynamic dashboard with charts and map views of roofing project trends.
-- Features like filtering by state and roof type, export to CSV and PDF, and a geographic heatmap using Leaflet.
+## ✨ Features  
+- 🧾 Quote submission form for contractors  
+- 📊 Performance dashboard with charts:  
+  - State-wise distribution  
+  - Roof-type-wise breakdown  
+  - Monthly trends  
+- 🌐 Map view using Leaflet to visualize project density  
+- 🎯 Filters by state and roof type  
+- 📥 Export to CSV and PDF  
+- 📍 Location markers powered by city/state lat/lng  
 
+---
 
+## 🛠️ Tech Stack & Tools  
 
-##  Tech Stack & Tools
+### **Frontend**
+- React  
+- Recharts – for charts and graphs  
+- React-Leaflet – for map visualization  
+- React Router – for page routing  
+- PapaParse – for CSV parsing  
+- jsPDF + html2canvas – for PDF export  
 
-### Frontend:
-- React
-- Recharts (for visualizations)
-- React-Leaflet (for the map)
-- React Router (for navigation)
-- PapaParse (for CSV parsing)
-- jsPDF + html2canvas (for PDF generation)
+### **Backend**
+- Flask – lightweight Python backend for quote submission  
+- MongoDB Atlas – cloud-hosted NoSQL database for storing submitted quotes  
 
-### Backend:
-- No backend needed for this version (mock data is CSV-based).
-- Flask or MongoDB integration could be added in future versions.
+---
 
-
-
-##  How to Run Locally
+## 🧑‍💻 How to Run Locally  
 
 ### 1. Clone the Repository
 
-git clone https://github.com/your-username/enkoat-quote-dashboard.git
-cd enkoat-quote-dashboard
+```bash
+git clone https://github.com/arifkhan10/Enkoat-Project.git
+cd Enkoat-Project
+### Frontend
+- cd enkoat-frontend
+- npm install
+- npm start
+
+### Backend
+- cd server
+- python -m venv venv
+- source venv/bin/activate   # or venv\\Scripts\\activate on Windows
+- python app.py
