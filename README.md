@@ -1,9 +1,7 @@
 #  EnKoat Quote Portal & Performance Dashboard
 
 ## 🚀 Project Overview  
-This full-stack application simulates a contractor-facing interface for submitting roofing project quotes and visualizing project performance data.  
-It uses a mock dataset located at:  
-`public/mock_data_with_latlng.csv`
+This full-stack application simulates a contractor-facing interface for submitting roofing project quotes and visualizing project performance data.It uses a mock dataset located at:  `public/mock_data_with_latlng.csv`
 
 ---
 
