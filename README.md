@@ -1,4 +1,4 @@
-# 🏗️ EnKoat Quote Portal & Performance Dashboard
+#  EnKoat Quote Portal & Performance Dashboard
 
 ## 🚀 Project Overview  
 This full-stack application simulates a contractor-facing interface for submitting roofing project quotes and visualizing project performance data.  
