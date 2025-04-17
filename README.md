@@ -47,6 +47,7 @@ cd Enkoat-Project
 - npm start
 
 ### Backend
+cd Enkoat-Project
 - cd server
 - python -m venv venv
 - venv\Scripts\activate for windows    # or source venv/bin/activate  for mac
