@@ -49,5 +49,6 @@ cd Enkoat-Project
 ### Backend
 - cd server
 - python -m venv venv
-- source venv/bin/activate   # or venv\\Scripts\\activate on Windows
+- venv\Scripts\activate for windows    # or source venv/bin/activate  for mac
+- pip install -r requirements.txt
 - python app.py
