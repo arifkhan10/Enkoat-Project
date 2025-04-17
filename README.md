@@ -40,7 +40,7 @@ This full-stack application simulates a contractor-facing interface for submitti
 
 ```bash
 git clone https://github.com/arifkhan10/Enkoat-Project.git
-cd Enkoat-Project-main
+cd Enkoat-Project
 ### Frontend
 - cd enkoat-frontend
 - npm install
