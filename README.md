@@ -18,7 +18,7 @@ This full-stack application simulates a contractor-facing interface for submitti
 - 📍 Location markers powered by city/state lat/lng  
 
 ---
-🧪 Mock Data Generation
+# 🧪 Mock Data Generation
 - The initial project dataset (mock_data_with_latlng.csv) was generated using a combination of:
 
 - The Faker library (for random contractor names, company names, dates)
@@ -27,7 +27,7 @@ This full-stack application simulates a contractor-facing interface for submitti
 
 - Latitude and longitude fields were populated based on standard US city coordinates.
 
-🔥 Future Improvements
+# 🔥 Future Improvements
 - Given more time, the following enhancements could be implemented:
 
 - Add authentication and role-based access (e.g., Admin vs Contractor login)
