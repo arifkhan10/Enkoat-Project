@@ -18,6 +18,29 @@ This full-stack application simulates a contractor-facing interface for submitti
 - 📍 Location markers powered by city/state lat/lng  
 
 ---
+🧪 Mock Data Generation
+The initial project dataset (mock_data_with_latlng.csv) was generated using a combination of:
+
+The Faker library (for random contractor names, company names, dates)
+
+Randomized roof sizes, roof types, cities, and states.
+
+Latitude and longitude fields were populated based on standard US city coordinates.
+
+🔥 Future Improvements
+Given more time, the following enhancements could be implemented:
+
+Add authentication and role-based access (e.g., Admin vs Contractor login)
+
+Implement server-side pagination and search for large datasets
+
+Improve city/state dropdowns by dynamically fetching from an API
+
+Add form field validation using React libraries (Formik + Yup)
+
+Integrate Google Maps instead of Leaflet for richer map interactions
+
+Deploy backend and frontend to production (AWS/GCP + Netlify/Vercel)
 
 ## 🛠️ Tech Stack & Tools  
 
