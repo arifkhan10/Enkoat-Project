@@ -1,12 +1,13 @@
-
 .header {
-  background: linear-gradient(to right, #a9c9d8, #91b9d2); /* blue gradient */
+  background: linear-gradient(to right, #a9c9d8, #91b9d2);
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 10px 40px;
   color: #000000;
   font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -33,5 +34,41 @@
 
 .nav-links a:hover {
   color: #0a66c2;
-  border-color: #0a66c2
+}
+
+/* Hamburger Button */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 850px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #003973;
+    width: 100%;
+    padding: 10px 20px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    z-index: 10;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 10px 0;
+    font-weight: bold;
+    color: white;
+  }
 }
