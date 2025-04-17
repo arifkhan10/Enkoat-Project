@@ -6,7 +6,8 @@ This full-stack application simulates a contractor-facing interface for submitti
 ---
 
 ## ✨ Features  
-- 🧾 Quote submission form for contractors  
+- 🧾 Quote submission form for contractors (**NOTE** I am using MongoDB Atlas. When a user submits the Quote Form, they can navigate to the Reports page and see their entry added to the 
+     table in real-time.)
 - 📊 Performance dashboard with charts:  
   - State-wise distribution  
   - Roof-type-wise breakdown  
@@ -53,3 +54,4 @@ cd Enkoat-Project
 - venv\Scripts\activate for windows    # or source venv/bin/activate  for mac
 - pip install -r requirements.txt
 - python app.py
+
