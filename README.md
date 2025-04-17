@@ -15,7 +15,8 @@ This full-stack application simulates a contractor-facing interface for submitti
 - 🌐 Map view using Leaflet to visualize project density  
 - 🎯 Filters by state and roof type  
 - 📥 Export to CSV and PDF  
-- 📍 Location markers powered by city/state lat/lng  
+- 📍 Location markers powered by city/state lat/lng
+- 🔔 Toast notifications for form submission success and error messages
 
 ---
 # 🧪 Mock Data Generation
@@ -50,7 +51,8 @@ This full-stack application simulates a contractor-facing interface for submitti
 - React-Leaflet – for map visualization  
 - React Router – for page routing  
 - PapaParse – for CSV parsing  
-- jsPDF + html2canvas – for PDF export  
+- jsPDF + html2canvas – for PDF export
+- react-toastify (toast notifications)  
 
 ### **Backend**
 - Flask – lightweight Python backend for quote submission  
