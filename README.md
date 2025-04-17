@@ -7,7 +7,7 @@ This full-stack application simulates a contractor-facing interface for submitti
 
 ## ✨ Features  
 - 🧾 Quote submission form for contractors (**NOTE** I am using MongoDB Atlas. When a user submits the Quote Form, they can navigate to the Reports page and see their entry added to the 
-     table in real-time.)
+     table in real-time. New Quote form information is added at the end of table.)
 - 📊 Performance dashboard with charts:  
   - State-wise distribution  
   - Roof-type-wise breakdown  
